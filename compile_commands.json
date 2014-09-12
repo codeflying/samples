@@ -1,0 +1,5 @@
+[
+  { "directory": "~/cfiles/samples",
+    "command": "/opt/local/libexec/llvm-3.5/bin/clang fibonacci.c",
+    "file": "~/cfiles/samples/fibonacci.c" }
+]

@@ -1,0 +1,7 @@
+cflags = -Wall
+rule cc
+    command = gcc $cflags -c $in -o $out
+rule link
+    command = gcc $in -o $out
+build fibonacci.o: cc fibonacci.c
+build fibonacci: link fibonacci.o
