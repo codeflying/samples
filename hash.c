@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 unsigned long hash(unsigned char *str)
 {
@@ -10,6 +11,7 @@ unsigned long hash(unsigned char *str)
         hash = ((hash << 5) + hash) + c; /* hash * 33 + c */
 
     return hash;
+
 }
 
 unsigned long sdbm(unsigned char *str)
@@ -25,6 +27,8 @@ unsigned long sdbm(unsigned char *str)
 
 int main(int argc, char *argv[])
 {
-    
+    hash("fortick");
+    printf("Hello, world!\n");
+
     return 0;
 }
