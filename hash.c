@@ -29,6 +29,5 @@ int main(int argc, char *argv[])
 {
     hash("fortick");
     printf("Hello, world!\n");
-
     return 0;
 }
